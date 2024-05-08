@@ -6,6 +6,14 @@
     --dark: #263A4F;
 }
 
+.scale-up {
+    transition: transform 0.3s ease;
+}
+
+.scale-up:hover {
+    transform: scale(1.2);
+}
+
 .btn {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;

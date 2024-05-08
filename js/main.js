@@ -1,6 +1,15 @@
 (function ($) {
     "use strict";
 
+    $("button, .btn, .scale").hover(
+      function () {
+        $(this).addClass("scale-up");
+      },
+      function () {
+        $(this).removeClass("scale-up");
+      }
+    );
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 40) {
